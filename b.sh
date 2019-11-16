@@ -19,8 +19,8 @@ gcc-8 -Wl,-z,relro,-z,now test.c -o test_fulrelro
 gcc-8 -Wl,-z,relro,-z,now test.c -o test32_fulrelro -m32
 
 
-gcc-8 -Wl,-z,norelro test.c -o test_norelro 
-gcc-8 -Wl,-z,norelro test.c -o test_norelro -m32
+gcc-8 -z norelro test.c test.c -o test_norelro 
+gcc-8 -z norelro test.c test.c -o test_norelro -m32
 
 
 gcc-8 -fPIE -pie test.c -o test_PIE 
