@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt install gcc-4-multilib -y
+sudo apt install gcc-multilib -y
