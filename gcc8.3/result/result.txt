@@ -23,11 +23,11 @@ relro:f
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH	Symbols		FORTIFY	Fortified	Fortifiable  FILE
 [32mFull RELRO   [m   [32mCanary found   [m   [32mNX enabled [m   [32mPIE enabled  [m   [32mNo RPATH [m  [32mNo RUNPATH [m  [31m65 Symbols   [m  [32mYes[m	0		1	test_fulrelro
 relro:n 
-[31mError: The file '' does not exist.[m
-
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH	Symbols		FORTIFY	Fortified	Fortifiable  FILE
+[31mNo RELRO     [m   [32mCanary found   [m   [32mNX enabled [m   [32mPIE enabled  [m   [32mNo RPATH [m  [32mNo RUNPATH [m  [31m66 Symbols   [m  [32mYes[m	0		1	test_norelro
 PIE
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH	Symbols		FORTIFY	Fortified	Fortifiable  FILE
 [32mFull RELRO   [m   [32mCanary found   [m   [32mNX enabled [m   [32mPIE enabled  [m   [32mNo RPATH [m  [32mNo RUNPATH [m  [31m65 Symbols   [m  [32mYes[m	0		1	test_PIE
 PIE:no 
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH	Symbols		FORTIFY	Fortified	Fortifiable  FILE
-[33mPartial RELRO[m   [32mCanary found   [m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  [31m67 Symbols   [m  [32mYes[m	0		1	test_noPIE
+[33mPartial RELRO[m   [32mCanary found   [m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  [31m63 Symbols   [m  [32mYes[m	0		1	test_noPIE
